@@ -4,6 +4,13 @@ html
 *
 { margin: 0;
   padding: 0;}
+  .fullscreen-video{
+      position: relative;
+      width: 100%;
+      height: 140vh;
+  overflow: hidden;
+  
+  }
 
 body
 { font: bold .80em 'trebuchet ms', arial, sans-serif;
@@ -24,7 +31,9 @@ margin: 0px; auto;
 
 img
 { border: 3cm;}
-
+p{
+    font-size: large;
+}
 h1, h2, h3, h4, h5, h6 
 { font: normal 125% 'century gothic', arial, sans-serif;
   color: #FFF;
